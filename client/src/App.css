@@ -1,0 +1,224 @@
+.wrapper {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+
+  background: #ffffff;
+}
+
+.wrapper > p {
+  margin: 0;
+  position: absolute;
+  left: 30%;
+  top: 5%;
+}
+
+.userCon {
+  position: absolute;
+  width: 443px;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+
+  background: #cd7676;
+  border-radius: 0px 20px 20px 0px;
+}
+
+.userBox {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.mainBox {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#box1 > h1 {
+  color: #ffffff;
+  margin-left: 40px;
+}
+
+.arrowsContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  gap: 200px;
+}
+
+.arrowsContainer > .arrow {
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: #cd7676;
+}
+
+.arrowsContainer > .arrow:hover {
+  cursor: pointer;
+}
+
+.cirIcon {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  right: 2%;
+  top: 2%;
+
+  background: #d9d9d9;
+  border: 2px solid #000000;
+
+  border-radius: 50%;
+}
+
+.userDetailsBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.userDetails > p {
+  margin: 0;
+  color: #ffffff;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  margin-bottom: 10px;
+}
+
+.imgCon {
+  width: 150px;
+  height: 150px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.imgCon > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.dayDetailsBox {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+  gap: 10px;
+}
+
+.dayDetailsBox > p {
+  color: #ffffff;
+  margin: 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.Container {
+  background: #d9d9d9;
+  position: absolute;
+  top: 9%;
+  left: 30%;
+  width: 1000px;
+  height: 630px;
+  border-radius: 14px;
+}
+
+.Container > .timeContainer {
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  left: 2%;
+  top: 3%;
+
+  background: white;
+  border-radius: 14px;
+}
+
+.timeContainer > .emptyCon {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.timeContainer > .emptyCon > p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+  color: #cd7676;
+}
+
+.timeContainer > .emptyCon > button {
+  width: 80px;
+  height: 50px;
+
+  background: #d9d9d9;
+  border-radius: 10px;
+  border: none;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.Container > .dayContainer {
+  position: absolute;
+  width: 350px;
+  height: 300px;
+  left: 63%;
+  top: 3%;
+
+  background: white;
+  border-radius: 14px;
+}
+
+.dayDCon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dayDCon > h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+  /* identical to box height */
+
+  color: #cd7676;
+  margin-bottom: 5px;
+}
+
+.timeCon > p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height */
+
+  letter-spacing: -0.02em;
+
+  color: #000000;
+}
